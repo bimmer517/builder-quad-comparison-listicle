@@ -85,9 +85,9 @@ export function RankingCard({
       )}
 
       {/* Product Header */}
-      <div className="px-6 pt-6 pb-4 border-b border-gray-200">
+      <div className={`px-6 pt-6 pb-4 border-b border-gray-200 ${isTopPick ? "ml-20" : ""}`}>
         <div className="flex items-center justify-between">
-          <div className="pl-4">
+          <div>
             <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
               {!isTopPick && (
                 <span className="text-gray-400 font-bold">#{rank}</span>

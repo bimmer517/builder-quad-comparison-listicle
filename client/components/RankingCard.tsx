@@ -59,17 +59,26 @@ export function RankingCard({
 
   return (
     <div
-      className={`relative mb-8 rounded-lg overflow-hidden shadow-md transition-all duration-300 ${
+      className={`relative mb-8 rounded-lg overflow-visible shadow-md transition-all duration-300 ${
         isTopPick ? "border-4 border-slate-900 bg-white" : "border border-gray-200 bg-white"
       }`}
     >
       {/* Top Pick Ribbon - Golden flag */}
       {isTopPick && (
-        <div className="absolute left-0 top-6 w-16 h-12 -ml-1 z-10">
+        <div className="absolute -left-1 top-8 w-20 h-14 z-10">
           <div className="relative w-full h-full">
-            <div className="absolute inset-0 bg-orange-500 clip-path-polygon" style={{clipPath: "polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)"}}></div>
-            <div className="absolute inset-0 flex items-center justify-start pl-1">
-              <span className="text-white font-bold text-sm">#1</span>
+            {/* Orange ribbon/flag */}
+            <div
+              className="absolute inset-0 bg-orange-500 shadow-md"
+              style={{
+                clipPath: "polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%)",
+              }}
+            ></div>
+            {/* #1 text on ribbon */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-white font-bold text-lg">
+                #1
+              </span>
             </div>
           </div>
         </div>
@@ -78,17 +87,17 @@ export function RankingCard({
       {/* Product Header */}
       <div className="px-6 pt-6 pb-4 border-b border-gray-200">
         <div className="flex items-center justify-between">
-          <div>
+          <div className="pl-4">
             <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-              <span className="text-gray-400 font-bold">
-                {!isTopPick && `#${rank}`}
-              </span>
-              {productName}
+              {!isTopPick && (
+                <span className="text-gray-400 font-bold">#{rank}</span>
+              )}
+              <span>{productName}</span>
             </h3>
             {brand && <p className="text-sm text-gray-600 mt-1">by {brand}</p>}
           </div>
           {isTopPick && (
-            <span className="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full whitespace-nowrap">
               Best Choice in 2025
             </span>
           )}

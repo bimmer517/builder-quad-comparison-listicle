@@ -1,62 +1,149 @@
-import { DemoResponse } from "@shared/api";
-import { useEffect, useState } from "react";
+import { Header } from "@/components/Header";
+import { HeroSection } from "@/components/HeroSection";
+import { RankingCard } from "@/components/RankingCard";
+import { DeepDiveSection } from "@/components/DeepDiveSection";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { CTASection } from "@/components/CTASection";
+import { Footer } from "@/components/Footer";
 
 export default function Index() {
-  const [exampleFromServer, setExampleFromServer] = useState("");
-  // Fetch users on component mount
-  useEffect(() => {
-    fetchDemo();
-  }, []);
-
-  // Example of how to fetch data from the server (if needed)
-  const fetchDemo = async () => {
-    try {
-      const response = await fetch("/api/demo");
-      const data = (await response.json()) as DemoResponse;
-      setExampleFromServer(data.message);
-    } catch (error) {
-      console.error("Error fetching hello:", error);
-    }
-  };
+  const products = [
+    {
+      rank: 1,
+      productName: "Tagsley",
+      isTopPick: true,
+      score: 9.8,
+      ratingText: "Excellent",
+      customerReviews: 9137,
+      pros: [
+        "Ultra-slim 1.8mm profile",
+        "5-month battery life",
+        "Fast wireless charging",
+        "Left-behind alerts",
+        "No subscription fees",
+        "IP68 water resistant",
+        "Apple Find My certified",
+        "Global tracking network",
+        "Premium card material",
+        "Loud ring-to-find sound",
+      ],
+      cons: ["Often out of stock due to high demand"],
+      dealText: "Limited Time Deal: 70% Off",
+      socialProof: "2,184 people bought this week",
+    },
+    {
+      rank: 2,
+      productName: "Tile Pro",
+      brand: "Target",
+      score: 8.6,
+      ratingText: "Good",
+      customerReviews: 1134,
+      pros: [
+        "Replaceable battery",
+        "Wide compatibility",
+        "Community finding network",
+        "Established brand trust",
+      ],
+      cons: ["Weak volume", "Too thick for modern wallets"],
+    },
+    {
+      rank: 3,
+      productName: "SmartTrack Card",
+      brand: "Eufy",
+      score: 8.2,
+      ratingText: "Good",
+      customerReviews: 923,
+      pros: [
+        "Affordable price point",
+        "Decent build quality",
+        "Easy setup process",
+        "3-year battery life",
+      ],
+      cons: [
+        "Non-rechargeable battery",
+        "Poor location updates",
+        "Weak alert sound",
+      ],
+    },
+    {
+      rank: 4,
+      productName: "Card Universal",
+      brand: "pebblebee",
+      score: 7.1,
+      ratingText: "Average",
+      customerReviews: 543,
+      pros: [
+        "Universal compatibility",
+        "Decent tracking range",
+        "Multiple color options",
+      ],
+      cons: [
+        "Requires special charger",
+        "No left-behind alerts",
+        "Cheap material",
+        "Confusing setup process",
+        "Not loud enough sound",
+      ],
+    },
+    {
+      rank: 5,
+      productName: "Tracking Card",
+      brand: "NOMAD",
+      score: 6.3,
+      ratingText: "Average",
+      customerReviews: 291,
+      pros: [
+        "Premium brand reputation",
+        "Sleek design aesthetic",
+        "Solid construction feel",
+      ],
+      cons: [
+        "Poor tracking precision",
+        "Weak audio alerts",
+        "Inconsistent connectivity",
+        "Limited battery life",
+        "Overpriced",
+      ],
+    },
+  ];
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
-      <div className="text-center">
-        {/* TODO: FUSION_GENERATION_APP_PLACEHOLDER replace everything here with the actual app! */}
-        <h1 className="text-2xl font-semibold text-slate-800 flex items-center justify-center gap-3">
-          <svg
-            className="animate-spin h-8 w-8 text-slate-400"
-            viewBox="0 0 50 50"
-          >
-            <circle
-              className="opacity-30"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-            />
-            <circle
-              className="text-slate-600"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-              strokeDasharray="100"
-              strokeDashoffset="75"
-            />
-          </svg>
-          Generating your app...
-        </h1>
-        <p className="mt-4 text-slate-600 max-w-md">
-          Watch the chat on the left for updates that might need your attention
-          to finish generating
-        </p>
-        <p className="mt-4 hidden max-w-md">{exampleFromServer}</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+
+      <main>
+        <HeroSection />
+
+        {/* Ranking Cards Section */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4">
+            {products.map((product) => (
+              <RankingCard
+                key={product.rank}
+                rank={product.rank}
+                productName={product.productName}
+                brand={product.brand}
+                isTopPick={product.isTopPick}
+                score={product.score}
+                ratingText={product.ratingText}
+                customerReviews={product.customerReviews}
+                pros={product.pros}
+                cons={product.cons}
+                dealText={product.dealText}
+                socialProof={product.socialProof}
+              />
+            ))}
+          </div>
+        </section>
+
+        <DeepDiveSection />
+
+        <TestimonialsSection />
+
+        <CTASection />
+      </main>
+
+      <Footer />
     </div>
   );
 }

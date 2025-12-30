@@ -65,7 +65,7 @@ export function RankingCard({
     >
       {/* Top Pick Ribbon - Golden flag */}
       {isTopPick && (
-        <div className="absolute -left-1 top-8 w-20 h-14 z-10">
+        <div className="absolute -left-2 md:-left-1 top-7 md:top-8 w-16 md:w-20 h-12 md:h-14 z-10">
           <div className="relative w-full h-full">
             {/* Orange ribbon/flag */}
             <div
@@ -76,7 +76,7 @@ export function RankingCard({
             ></div>
             {/* #1 text on ribbon */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-white font-bold text-lg">
+              <span className="text-white font-bold text-base md:text-lg">
                 #1
               </span>
             </div>

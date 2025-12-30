@@ -5,8 +5,16 @@ import { DeepDiveSection } from "@/components/DeepDiveSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
+import { useState } from "react";
+import { ChevronUp } from "lucide-react";
 
 export default function Index() {
+  const [expandedProducts, setExpandedProducts] = useState(false);
+
+  const toggleProducts = () => {
+    setExpandedProducts(!expandedProducts);
+  };
+
   const products = [
     {
       rank: 1,

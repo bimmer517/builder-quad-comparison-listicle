@@ -139,8 +139,29 @@ export default function Index() {
                 cons={product.cons}
                 dealText={product.dealText}
                 socialProof={product.socialProof}
+                isHidden={product.rank > 3 && !expandedProducts}
               />
             ))}
+
+            {/* Load More / Load Less Button */}
+            {products.length > 3 && (
+              <div className="flex flex-col items-center gap-4 mt-12 py-8">
+                <button
+                  onClick={toggleProducts}
+                  className="flex items-center gap-2 px-6 py-3 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors"
+                >
+                  <span className="text-sm font-semibold text-gray-700">
+                    {expandedProducts ? "See Less Of The List" : "See The Rest Of The List"}
+                  </span>
+                  <ChevronUp
+                    size={20}
+                    className={`text-gray-400 transition-transform duration-300 ${
+                      expandedProducts ? "rotate-0" : "rotate-180"
+                    }`}
+                  />
+                </button>
+              </div>
+            )}
           </div>
         </section>
 

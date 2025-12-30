@@ -1,9 +1,9 @@
 export function HeroSection() {
   return (
-    <section className="py-12 md:py-16 bg-white">
+    <section className="py-12 md:py-16 bg-gradient-to-b from-gray-50 to-white border-b border-gray-200">
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Main Title */}
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-400 mb-8">
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-500 mb-8 tracking-tight">
           Best Wallet Trackers of 2025
         </h1>
 

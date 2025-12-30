@@ -85,7 +85,7 @@ export function RankingCard({
       )}
 
       {/* Product Header */}
-      <div className={`px-4 md:px-6 pt-6 pb-4 border-b border-gray-200 ${isTopPick ? "md:ml-20" : ""}`}>
+      <div className={`px-4 md:px-6 pt-6 pb-4 border-b border-gray-200 ${isTopPick ? "ml-20 md:ml-20" : ""}`}>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-2 md:gap-4">
           <div className="min-w-0">
             <h3 className="text-lg md:text-xl font-bold text-slate-900 flex items-center gap-2">

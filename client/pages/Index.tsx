@@ -46,6 +46,7 @@ export default function Index() {
     {
       rank: 2,
       productName: "Rugiet",
+      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fb4c67d36804a4c9e9829f9512dffa0fc?format=webp&width=800&height=1200",
       brand: "Rugiet Health",
       score: 8.9,
       ratingText: "Excellent",

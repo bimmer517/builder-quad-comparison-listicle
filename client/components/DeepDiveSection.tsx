@@ -18,8 +18,7 @@ export function DeepDiveSection() {
   ];
 
   const cons = [
-    "Higher cost than single-ingredient options",
-    "Requires telehealth consultation",
+    "Requires online consultation",
   ];
 
   return (

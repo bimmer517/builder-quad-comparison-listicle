@@ -35,8 +35,6 @@ export default function Index() {
       cons: [
         "Requires online consultation",
       ],
-      dealText: "Limited Time Deal: First Month $79",
-      socialProof: "💓 1,856 people started consultations this week",
     },
     {
       rank: 2,

@@ -48,9 +48,13 @@ export function DeepDiveSection() {
               </div>
             </div>
 
-            {/* Product Image Placeholder */}
-            <div className="w-full h-64 bg-gray-300 rounded-lg flex items-center justify-center">
-              <span className="text-gray-600">Product Testing Image</span>
+            {/* Product Image */}
+            <div className="w-full rounded-lg overflow-hidden shadow-sm">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200"
+                alt="Testing MEDVi QUAD sublingual treatment"
+                className="w-full h-auto object-cover max-h-[500px]"
+              />
             </div>
 
             <p>

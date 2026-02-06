@@ -57,11 +57,11 @@ export function CTASection() {
                 </div>
               </div>
 
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                MedVi Quad 4 in 1 delivers comprehensive dual-pathway coverage, 15-minute onset, 36-hour effectiveness, and CNS arousal activation in one sublingual dose. Its 4-ingredient formula (sildenafil + tadalafil + apomorphine + oxytocin) provides complete coverage while sublingual delivery ensures fast absorption regardless of food or alcohol. Perfect for anyone who wants reliable intimate health without planning restrictions.
-              </p>
+              <div className="mb-4">
+                <br />
+              </div>
 
-              <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
+              <div className="flex flex-col gap-4 items-center md:items-start">
                 <a
                   href="https://quad.medvi.org/?oid=13&affid=161"
                   target="_blank"

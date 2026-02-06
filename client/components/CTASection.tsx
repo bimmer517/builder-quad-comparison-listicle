@@ -63,11 +63,6 @@ export function CTASection() {
               </p>
 
               <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
-                <div>
-                  <p className="text-sm text-rose-600 font-semibold">Limited Time Deal:</p>
-                  <p className="text-3xl font-bold text-slate-900">First Month $79</p>
-                </div>
-
                 <button
                   onClick={() => window.open("https://example.com", "_blank")}
                   className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all text-lg"
@@ -77,8 +72,6 @@ export function CTASection() {
               </div>
 
               <div className="mt-6 flex items-center justify-center md:justify-start gap-2 text-rose-600 font-semibold">
-                <span>💓</span>
-                <span>1,856 people started consultations this week</span>
               </div>
             </div>
 
@@ -95,7 +88,6 @@ export function CTASection() {
                   ))}
               </div>
               <p className="font-semibold text-slate-900 mb-1">Excellent</p>
-              <p className="text-sm text-gray-600 mb-6">8,247 Customer Reviews</p>
 
               <div className="space-y-3 border-t border-gray-300 pt-6">
                 <div className="flex justify-between">

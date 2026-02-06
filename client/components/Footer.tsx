@@ -26,12 +26,12 @@ export function Footer() {
                   ))}
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                Written by: Benjamin Carter
+                Written by: Ben Carter
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                Benjamin is a men's health advocate and product reviewer who specializes in intimate
+                Ben is a men's health advocate and product reviewer who specializes in intimate
                 health solutions and telehealth innovations. With a background in health journalism
-                and a commitment to destigmatizing men's wellness, Benjamin tests treatments that
+                and a commitment to destigmatizing men's wellness, Ben tests treatments that
                 help men maintain confidence and relationship satisfaction. He focuses on
                 evidence-based solutions that work in real-world situations and always strives to
                 deliver honest assessments about what's worth your money and what isn't.

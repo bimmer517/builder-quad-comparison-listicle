@@ -62,12 +62,14 @@ export function CTASection() {
               </p>
 
               <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
-                <button
-                  onClick={() => window.open("https://example.com", "_blank")}
-                  className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all text-lg"
+                <a
+                  href="https://quad.medvi.org/?oid=13&affid=161"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all text-lg text-center"
                 >
                   Click Here to Start Your Consultation
-                </button>
+                </a>
               </div>
 
             </div>

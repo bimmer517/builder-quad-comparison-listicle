@@ -4,14 +4,14 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Main Title */}
         <h1 className="text-3xl md:text-5xl font-bold text-gray-500 mb-8 tracking-tight">
-          Best ED Treatments of 2025
+          Best ED Treatments of 2026
         </h1>
 
         {/* Metadata */}
         <div className="flex items-center justify-center gap-4 text-sm text-gray-500 mb-6">
           <span className="flex items-center gap-1">
             <span className="w-2 h-2 rounded-full bg-teal-500"></span>
-            Last Updated - February 5, 2025
+            Last Updated - February 5, 2026
           </span>
           <span>|</span>
           <a href="#disclosure" className="text-blue-600 hover:underline">

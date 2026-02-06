@@ -39,7 +39,7 @@ export function DeepDiveSection() {
               <div className="w-6 h-6 rounded-full bg-gray-300 flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] font-bold">BC</div>
               <div>
                 <p className="font-semibold text-gray-900">Written by Benjamin Carter</p>
-                <p className="text-gray-600">on February 5, 2025 | Men's Health</p>
+                <p className="text-gray-600">on February 5, 2026 | Men's Health</p>
               </div>
             </div>
 

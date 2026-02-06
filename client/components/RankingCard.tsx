@@ -98,7 +98,7 @@ export function RankingCard({
           </div>
           {isTopPick && (
             <span className="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full whitespace-nowrap flex-shrink-0">
-              Best Choice in 2025
+              Best Choice in 2026
             </span>
           )}
         </div>

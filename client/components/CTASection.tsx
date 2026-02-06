@@ -53,7 +53,7 @@ export function CTASection() {
               <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
                 <span className="text-5xl font-bold text-slate-900">#1</span>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900">ED Treatment of 2025</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">ED Treatment of 2026</h3>
                   <p className="text-gray-600">MedVi Quad 4 in 1</p>
                 </div>
               </div>

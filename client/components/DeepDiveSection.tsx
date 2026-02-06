@@ -21,16 +21,12 @@ export function DeepDiveSection() {
     <section id="deep-dive" className="py-12 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
-          I Bought & Tested the Best-Selling ED Treatments. Here's Why MedVi Quad 4 in 1 is #1:
+          Here's Why <u className="decoration-2 underline-offset-4">MedVi Quad 4 in 1</u> is #1:
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Left Column - Body Content */}
           <div className="md:col-span-2 space-y-6 text-gray-700 leading-relaxed">
-            <p>
-              <span className="text-blue-600 font-bold">Limited Time Sale: First Month $79 (Regular $119)</span>
-            </p>
-
             <div className="flex items-start gap-3 text-sm">
               <div className="w-6 h-6 rounded-full overflow-hidden border border-gray-200 flex-shrink-0 mt-0.5">
                 <img
@@ -40,7 +36,7 @@ export function DeepDiveSection() {
                 />
               </div>
               <div>
-                <p className="font-semibold text-gray-900">Written by Benjamin Carter</p>
+                <p className="font-semibold text-gray-900">Written by Ben Carter</p>
                 <p className="text-gray-600">on February 5, 2026 | Men's Health</p>
               </div>
             </div>

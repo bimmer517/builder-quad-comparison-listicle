@@ -252,23 +252,10 @@ export function DeepDiveSection() {
                       ))}
                     </ul>
                   </div>
-
-                  <div>
-                    <h4 className="font-bold text-rose-600 text-sm mb-2">CONS</h4>
-                    <ul className="space-y-1">
-                      {cons.map((con, idx) => (
-                        <li key={idx} className="flex gap-2 text-xs text-slate-700">
-                          <XCircle size={14} className="text-rose-600 flex-shrink-0 mt-0.5" />
-                          <span>{con}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
 
                 {/* Deal Text */}
                 <div className="pt-6 border-t border-gray-300">
-                  <p className="text-xs font-semibold text-rose-600 mb-3">Limited Time Deal: First Month $79</p>
                   <button
                     onClick={() => window.open("https://example.com", "_blank")}
                     className="w-full px-4 py-3 bg-white border border-gray-400 text-slate-900 font-semibold rounded hover:bg-gray-100 transition-all text-sm"

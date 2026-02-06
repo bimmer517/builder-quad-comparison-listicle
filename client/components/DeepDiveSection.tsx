@@ -50,152 +50,41 @@ export function DeepDiveSection() {
               />
             </div>
 
-            <p>
-              I've always been that person who avoids addressing health issues until they become impossible to ignore. Performance anxiety, inconsistent results, the timing stress of having to plan intimacy 60 minutes in advance like you're scheduling a business meeting.
-            </p>
-
-            <p>
-              After my third "it's not working tonight" situation in two months, I decided to finally solve this problem properly. The ED treatment market is flooded with options, but most are either outdated single-ingredient formulas or come with planning requirements that kill spontaneity completely.
-            </p>
-
-            <p>
-              Then I discovered <span className="text-blue-600 font-bold">MedVi Quad 4 in 1</span>. With over{" "}
-              <span className="font-bold">8,000 verified reviews</span> and claims about being the only 4-ingredient CNS + vascular formula with 15-minute onset, I figured it was worth putting to the test.
-            </p>
-
-            <p>
-              The first shipment arrived in 3 days via discreet packaging, and I was immediately impressed by the sublingual format – no pills to swallow, no planning around meals. Everything about the medical consultation and product quality felt premium without the premium price tag.
-            </p>
-
-            <p>
-              MedVi Quad 4 in 1 uses breakthrough dual-pathway technology that combines sildenafil, tadalafil, apomorphine, and oxytocin for complete coverage – addressing desire, speed, strength, and stamina simultaneously.
-            </p>
-
-            <p>
-              But what really sets MedVi Quad 4 in 1 apart is its versatility. It works when you're stressed, tired, or not "in the mood yet" – addressing both the mental and physical components that single-ingredient competitors completely ignore.
-            </p>
-
-            <p>
-              You don't need to think about timing, food restrictions, or planning windows at all. Just take it 15 minutes before and feel confident knowing it's working on all cylinders.
-            </p>
-
-            {/* My Test Results */}
-            <div className="mt-8">
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">My Test Results</h3>
-
-              <p>
-                As advertised, <span className="font-bold">MedVi Quad 4 in 1 is fast-acting, long-lasting, and doesn't require the rigid planning that makes other treatments impractical</span>.
-              </p>
-
-              <p className="mt-4">
-                I tested it across different scenarios – after dinner dates, with wine, when stressed from work, when tired, and during spontaneous moments. I specifically tested situations where single-ingredient treatments had failed me before.
-              </p>
-
-              <p className="mt-4">
-                I compared the onset time against my previous sildenafil prescription (which took 45-60 minutes on a good day). I tested it after high-fat meals that would normally kill effectiveness. I tried it when genuinely exhausted and "not in the mood" to see if the apomorphine component actually worked.
-              </p>
-
-              <p className="mt-4">
-                The difference was dramatic. Whether conditions were perfect or far from ideal, MedVi Quad 4 in 1 delivered consistent results within 15 minutes. The mental arousal component was noticeable – even when stressed or tired, the desire was there in a way it wasn't with Viagra alone.
-              </p>
-
-              <p className="mt-4">
-                That's when I knew MedVi Quad 4 in 1's dual-pathway approach was doing exactly what it promised.
-              </p>
-
-              <p className="mt-4 font-semibold text-slate-900">Now, let's talk about the 36-hour window.</p>
-
-              <p className="mt-4">
-                This was the unexpected benefit I didn't fully appreciate until experiencing it. With my old prescription, I had a 4-6 hour window. If nothing happened during that narrow timeframe, that was it – dose wasted. With QUAD's tadalafil component, Friday night coverage extends through the entire weekend.
-              </p>
-
-              <p className="mt-4">
-                The psychological relief of not watching the clock cannot be overstated. No more "we need to do this now before the window closes" pressure. Just natural spontaneity whenever the moment feels right.
-              </p>
-
-              <p className="mt-4">
-                In the end, MedVi Quad 4 in 1 passed all my tests with flying colors. It's comprehensive, effective, and offers exactly what you need from a modern ED treatment that actually works in real life.
-              </p>
-
-              <p className="mt-4">Still, I had some other treatments to test, so let's see how they compare.</p>
-            </div>
-
-            {/* The Results */}
-            <div className="mt-8 space-y-6">
-              <h3 className="text-2xl font-bold text-slate-900">The Results:</h3>
-
-              <div className="space-y-4 border-l-4 border-gray-300 pl-6">
-                <div>
-                  <p className="font-bold text-slate-900">
-                    1. Complete Dual-Pathway Coverage:
-                  </p>
-                  <p className="text-gray-700 mt-2">
-                    While most competitors only offer basic PDE5 inhibition (blood flow), MedVi Quad 4 in 1's 4-ingredient formula addresses CNS arousal, immediate response, extended window, and refractory period reduction. The best part is that one dose covers all bases – no stacking multiple pills or supplements.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-bold text-slate-900">2. Actually Fast When It Matters:</p>
-                  <p className="text-gray-700 mt-2">
-                    A common complaint I had with oral pills is that they take 45-60 minutes even on an empty stomach. MedVi Quad 4 in 1's sublingual delivery gets into your bloodstream in 15 minutes, period. No waiting, no planning, no killed moments.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-bold text-slate-900">3. Works Despite Real Life:</p>
-                  <p className="text-gray-700 mt-2">
-                    MedVi Quad 4 in 1 performs consistently even when conditions aren't perfect – after meals, with alcohol, when stressed, when tired. In contrast, the single-ingredient treatments I tested became unreliable the moment real-world variables entered the equation.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-bold text-slate-900">
-                    4. The 36-Hour Advantage:
-                  </p>
-                  <p className="text-gray-700 mt-2">
-                    After using short-acting treatments, I realized how much anxiety came from that narrow 4-6 hour window. With MedVi Quad 4 in 1's 36-hour coverage, there's no clock-watching, no pressure, no "use it or lose it" stress. Just confidence that you're covered whenever the moment happens.
-                  </p>
-                </div>
+            <div className="space-y-8 mt-8">
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">1. Ignites Real Sexual Arousal</h3>
+                <p>
+                  Most ED pills only open blood vessels. QUAD includes Apomorphine-which activates your brain's arousal pathways. You don't just perform. You actually want it. That's real desire, not mechanical function.
+                </p>
               </div>
 
-              <p className="mt-8 font-semibold text-slate-900 text-lg">
-                Out of the 8 ED treatments I've tested, MedVi Quad 4 in 1 is my #1 pick. It's comprehensive, it works reliably, and you can take it without planning your entire evening around pharmaceutical timing.
-              </p>
-            </div>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">2. Fastest Activation on the Market in Under 10 Minutes</h3>
+                <p>
+                  Sublingual drops hit your bloodstream directly-no digestion required. While competitors take 30-60 minutes, you're ready in 5-15. That's the difference between spontaneous intimacy and mood-killing waiting games.
+                </p>
+              </div>
 
-            {/* Value Section */}
-            <div className="mt-8">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Value</h3>
-              <p>
-                When it comes to reliable intimate health, <span className="text-blue-600 font-bold">MedVi Quad 4 in 1</span> offers incredible value.
-              </p>
-              <p className="mt-4">
-                At <span className="font-bold">$119 for a month's supply (30 doses)</span>, it's reasonable considering what it protects – your relationship, your confidence, your spontaneity.
-              </p>
-              <p className="mt-4">
-                I've had friends spend hundreds on urologist visits, trial-and-error with different prescriptions, couples therapy addressing intimacy issues that were actually medical. My buddy Jason spent over $1,200 across six months just trying to find something that worked consistently before discovering combination therapy.
-              </p>
-              <p className="mt-4">
-                If you've tried single-ingredient treatments with mixed results, or if you're tired of planning intimacy around pharmaceutical timing windows, having a solution that actually works is priceless.
-              </p>
-              <p className="mt-4 font-semibold text-slate-900">The peace of mind is worth more than the cost.</p>
-            </div>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">3. The Whole Weekend on One Dose (36 Hours)</h3>
+                <p>
+                  Take it Friday night. Stay ready through Sunday morning. No re-dosing. No mental math. No planning sex around pill timing. One dose, entire weekend, zero pressure.
+                </p>
+              </div>
 
-            {/* Never Lose Anything */}
-            <div className="mt-8">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Never Deal With Performance Anxiety Again</h3>
-              <p>
-                At the heart of MedVi Quad 4 in 1 is its advanced dual-pathway technology, designed to address both the mental and physical components that traditional treatments ignore. This creates a comprehensive solution that works reliably regardless of stress, fatigue, or timing.
-              </p>
-              <p className="mt-4">
-                But MedVi Quad 4 in 1 isn't just for occasional use. It provides 36-hour coverage that restores natural spontaneity to your intimate life – no planning, no pressure, no watching the clock.
-              </p>
-              <p className="mt-4">
-                What's even better is that it works without interfering with meals, alcohol, or your daily routine. The sublingual delivery bypasses digestive variables that sabotage oral pills, and the CNS component addresses desire even when you're stressed or not "in the mood yet."
-              </p>
-              <p className="mt-4">
-                <span className="text-blue-600 font-bold">MedVi Quad 4 in 1</span> gives you the ultimate confidence in your intimate health, all without the hassle of traditional ED treatments.
-              </p>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">4. Don't Let a Yummy Date Night Meal Stop the After-Date Night Fun</h3>
+                <p>
+                  Steak and wine? Heavy pasta? Post-dinner drinks? Doesn't matter. QUAD absorbs through your mouth-bypassing your stomach entirely. Your dinner plans and your bedroom plans can finally coexist.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">5. Lab-Compounded by US-Licensed Pharmacists</h3>
+                <p>
+                  QUAD isn't mass-produced in some overseas facility. It's precision-compounded by US-licensed pharmacists following strict quality standards. Every batch is tested, measured, and verified before it reaches you.
+                </p>
+              </div>
             </div>
           </div>
 

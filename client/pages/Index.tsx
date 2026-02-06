@@ -46,6 +46,7 @@ export default function Index() {
     {
       rank: 2,
       productName: "Hims Hard Mints",
+      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F4bda750cc32d41bd82ea6d18d11c9dc2?format=webp&width=800&height=1200",
       brand: "Hims",
       score: 8.4,
       ratingText: "Good",

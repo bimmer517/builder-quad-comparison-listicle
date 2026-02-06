@@ -50,9 +50,8 @@ export function CTASection() {
             {/* Left Content */}
             <div className="flex-1 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
-                <span className="text-5xl font-bold text-slate-900">#1</span>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900">ED Treatment of 2026</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">#1 ED Treatment of 2026</h3>
                   <p className="text-gray-600">MedVi Quad 4 in 1</p>
                 </div>
               </div>
@@ -91,7 +90,7 @@ export function CTASection() {
               <div className="space-y-3 border-t border-gray-300 pt-6">
                 <div className="flex justify-between">
                   <span className="text-gray-700 font-semibold">Quality</span>
-                  <span className="font-bold text-slate-900">10</span>
+                  <span className="font-bold text-slate-900">9.5</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-700 font-semibold">Effectiveness</span>
@@ -99,11 +98,11 @@ export function CTASection() {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-700 font-semibold">Value</span>
-                  <span className="font-bold text-slate-900">9</span>
+                  <span className="font-bold text-slate-900">9.8</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-700 font-semibold">Support</span>
-                  <span className="font-bold text-slate-900">9</span>
+                  <span className="font-bold text-slate-900">9.3</span>
                 </div>
               </div>
             </div>

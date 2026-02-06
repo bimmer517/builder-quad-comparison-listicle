@@ -2,10 +2,10 @@ import { StarIcon, CheckCircle2 } from "lucide-react";
 
 export function DeepDiveSection() {
   const scores = [
-    { label: "Quality", value: 10 },
+    { label: "Quality", value: 9.5 },
     { label: "Effectiveness", value: 10 },
-    { label: "Value", value: 9 },
-    { label: "Support", value: 9 },
+    { label: "Value", value: 9.8 },
+    { label: "Support", value: 9.3 },
   ];
 
   const pros = [

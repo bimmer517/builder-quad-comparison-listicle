@@ -1,4 +1,4 @@
-import { StarIcon, CheckCircle2, XCircle } from "lucide-react";
+import { StarIcon, CheckCircle2 } from "lucide-react";
 
 export function DeepDiveSection() {
   const scores = [
@@ -15,10 +15,6 @@ export function DeepDiveSection() {
     "36-hour window (Tadalafil)",
     "Works after dinner & drinks",
     "Money back guarantee",
-  ];
-
-  const cons = [
-    "Requires online consultation",
   ];
 
   return (

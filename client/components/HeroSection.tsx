@@ -4,14 +4,14 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Main Title */}
         <h1 className="text-3xl md:text-5xl font-bold text-gray-500 mb-8 tracking-tight">
-          Best Wallet Trackers of 2025
+          Best ED Treatments of 2025
         </h1>
 
         {/* Metadata */}
         <div className="flex items-center justify-center gap-4 text-sm text-gray-500 mb-6">
           <span className="flex items-center gap-1">
             <span className="w-2 h-2 rounded-full bg-teal-500"></span>
-            Last Updated - Dec 25, 2025
+            Last Updated - February 5, 2025
           </span>
           <span>|</span>
           <a href="#disclosure" className="text-blue-600 hover:underline">
@@ -25,7 +25,7 @@ export function HeroSection() {
           <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-xs font-bold text-gray-600">
             BC
           </div>
-          <span className="text-gray-700">Written by Benjamin Chos</span>
+          <span className="text-gray-700">Written by Benjamin Carter</span>
           <span className="text-lg">🇺🇸</span>
         </div>
 
@@ -47,30 +47,20 @@ export function HeroSection() {
         {/* Introduction Text */}
         <div className="text-left max-w-3xl mx-auto space-y-4 text-gray-700 leading-relaxed">
           <p>
-            I've spent three months testing because most solutions completely miss the mark. AirTags
-            are too thick, Tile trackers die when you need them, and subscription trackers drain
-            your bank account.
+            I've spent four months testing because most ED solutions completely miss the mark.
+            Single-ingredient pills work inconsistently, timing windows kill spontaneity, and food
+            restrictions make planning a nightmare.
           </p>
           <p>
-            After real-world testing in wallets, laptop bags, purses, and travel pouches, I've found
-            five that actually work anywhere you need them. One completely changed how I think about
-            never losing important things.
-          </p>
-          <p>
-            I've spent three months testing because most solutions completely miss the mark. AirTags
-            are too thick, Tile trackers die when you need them, and subscription trackers drain
-            your bank account.
-          </p>
-          <p>
-            After real-world testing in wallets, laptop bags, purses, and travel pouches, I've found
-            five that actually work anywhere you need them. One completely changed how I think about
-            never losing important things.
+            After real-world testing with different meals, stress levels, timing scenarios, and
+            relationship contexts, I've found five that actually deliver reliable results. One
+            completely changed how I think about intimate health.
           </p>
         </div>
 
         {/* Section Title */}
         <div className="mt-12">
-          <p className="text-lg font-semibold text-gray-400">top tracking cards</p>
+          <p className="text-lg font-semibold text-gray-400">top ed treatments</p>
         </div>
       </div>
     </section>

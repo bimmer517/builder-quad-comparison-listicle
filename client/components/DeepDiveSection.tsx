@@ -21,7 +21,7 @@ export function DeepDiveSection() {
     <section id="deep-dive" className="py-12 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
-          Here's Why <u className="decoration-2 underline-offset-4">MedVi Quad 4 in 1</u> is #1:
+          5 Reasons why <u className="decoration-2 underline-offset-4">Quad 4 in 1</u> is #1
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -37,7 +37,7 @@ export function DeepDiveSection() {
               </div>
               <div>
                 <p className="font-semibold text-gray-900">Written by Ben Carter</p>
-                <p className="text-gray-600">on February 5, 2026 | Men's Health</p>
+                <p className="text-gray-600">on February 5, 2026 | American Health Digest</p>
               </div>
             </div>
 

@@ -61,7 +61,7 @@ export function CTASection() {
                 <br />
               </div>
 
-              <div className="flex flex-col gap-4 items-center md:items-start">
+              <div className="flex flex-col gap-4 items-center">
                 <a
                   href="https://quad.medvi.org/?oid=13&affid=161"
                   target="_blank"

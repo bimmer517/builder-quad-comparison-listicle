@@ -68,6 +68,7 @@ export default function Index() {
     {
       rank: 3,
       productName: "Ro Sparks",
+      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F1b762a4e79944c61beb4bb9e51bc3231?format=webp&width=800&height=1200",
       brand: "Ro",
       score: 8.1,
       ratingText: "Good",

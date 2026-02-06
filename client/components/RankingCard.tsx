@@ -155,9 +155,6 @@ export function RankingCard({
             </div>
             {getRatingStars(score)}
             <p className="font-semibold text-slate-900 mt-2 text-sm">{ratingText}</p>
-            <p className="text-xs text-gray-600 mt-1">
-              {customerReviews.toLocaleString()} Customer Reviews
-            </p>
 
             {dealText && (
               <p className="text-xs font-semibold text-rose-600 mt-3 leading-tight">

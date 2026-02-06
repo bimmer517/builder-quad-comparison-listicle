@@ -108,8 +108,12 @@ export function RankingCard({
       <div className="grid grid-cols-1 md:grid-cols-4 gap-0">
         {/* Product Image Column */}
         <div className="md:col-span-1 flex justify-center items-start p-4 md:border-r border-gray-200">
-          <div className="w-40 h-40 bg-gray-300 rounded-lg flex items-center justify-center flex-shrink-0">
-            <span className="text-gray-600 text-sm text-center px-2">Product Image</span>
+          <div className="w-40 h-40 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden">
+            {productImage ? (
+              <img src={productImage} alt={productName} className="w-full h-full object-cover" />
+            ) : (
+              <span className="text-gray-400 text-sm text-center px-2">Product Image</span>
+            )}
           </div>
         </div>
 

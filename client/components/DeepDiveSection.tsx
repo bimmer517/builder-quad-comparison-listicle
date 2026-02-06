@@ -134,14 +134,16 @@ export function DeepDiveSection() {
                   </div>
                 </div>
 
-                {/* Deal Text */}
+                {/* Visit Site Button */}
                 <div className="pt-6 border-t border-gray-300">
-                  <button
-                    onClick={() => window.open("https://example.com", "_blank")}
-                    className="w-full px-4 py-3 bg-white border border-gray-400 text-slate-900 font-semibold rounded hover:bg-gray-100 transition-all text-sm"
+                  <a
+                    href="https://quad.medvi.org/?oid=13&affid=161"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full px-4 py-3 bg-slate-900 border border-slate-900 text-white font-semibold rounded hover:bg-slate-800 transition-all text-sm text-center"
                   >
                     VISIT SITE
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

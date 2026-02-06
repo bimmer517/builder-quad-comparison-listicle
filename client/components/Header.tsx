@@ -1,20 +1,15 @@
 export function Header() {
   return (
-    <header className="relative border-b border-gray-200" style={{ backgroundColor: "#E5EADD" }}>
+    <header className="relative border-b border-gray-200 bg-white">
       <div className="max-w-4xl mx-auto px-4 py-3">
         <div className="flex items-center gap-3">
           {/* American Health Digest Logo Image */}
-          <div className="h-14 w-14 rounded-full overflow-hidden border border-gray-300 bg-white shadow-sm">
-            <img 
-              src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fa19b056ae0f84680b65657ab7214006a?format=webp&width=100" 
-              alt="American Health Digest Logo" 
-              className="w-full h-full object-cover"
+          <div className="h-16 w-auto overflow-hidden">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Ff385093ba6d847c189d3e014d0905c8a?format=webp&width=800&height=1200"
+              alt="American Health Digest Logo"
+              className="h-full w-auto object-contain"
             />
-          </div>
-          
-          <div className="flex flex-col">
-            <span className="text-xl font-extrabold text-[#1a4a3a] leading-tight uppercase tracking-tight">American Health</span>
-            <span className="text-lg font-bold text-[#1a4a3a] leading-tight uppercase tracking-widest opacity-80">Digest</span>
           </div>
         </div>
       </div>

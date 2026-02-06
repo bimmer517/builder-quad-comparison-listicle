@@ -163,12 +163,14 @@ export function RankingCard({
             )}
 
             {/* Visit Site Button */}
-            <button
-              onClick={() => window.open("https://example.com", "_blank")}
-              className="w-full mt-4 px-4 py-3 bg-white border-2 border-slate-900 text-slate-900 font-semibold rounded-lg hover:bg-slate-900 hover:text-white transition-all duration-200 text-sm uppercase tracking-wider"
+            <a
+              href="https://quad.medvi.org/?oid=13&affid=161"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full mt-4 px-4 py-3 bg-slate-900 border-2 border-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition-all duration-200 text-sm uppercase tracking-wider text-center"
             >
               VISIT SITE
-            </button>
+            </a>
 
             {socialProof && (
               <div className="flex items-center justify-center gap-2 text-xs text-rose-600 mt-3 px-2 py-2 bg-rose-50 rounded w-full">

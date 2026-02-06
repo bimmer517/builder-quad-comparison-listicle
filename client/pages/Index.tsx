@@ -33,8 +33,7 @@ export default function Index() {
         "Money back guarantee",
       ],
       cons: [
-        "Higher cost than single-ingredient options",
-        "Requires telehealth consultation",
+        "Requires online consultation",
       ],
       dealText: "Limited Time Deal: First Month $79",
       socialProof: "💓 1,856 people started consultations this week",
@@ -54,9 +53,10 @@ export default function Index() {
         "Flavored mint chocolate",
       ],
       cons: [
+        "Customers report side effects",
         "High cost per dose ($6-$10)",
         "Subscription model only",
-        "May cause facial flushing",
+        "Flavor taste bad",
       ],
     },
     {
@@ -77,9 +77,11 @@ export default function Index() {
       cons: [
         "30-60 minute wait time",
         "4-6 hour window only",
-        "PDE5 inhibitor only (no CNS)",
+        "Doesn't ignite desire",
         "Food restrictions apply",
         "Inconsistent effectiveness",
+        "Expensive doses",
+        "Hard to reach customer service",
       ],
     },
     {
@@ -96,10 +98,10 @@ export default function Index() {
       ],
       cons: [
         "Short 4-6 hour window",
-        "Single mechanism (PDE5 only)",
-        "No mental arousal component",
+        "No mental arousal",
         "Higher monthly cost",
         "Limited spontaneity",
+        "Taste bad",
       ],
     },
     {
@@ -115,11 +117,12 @@ export default function Index() {
         "Cheaper doses",
       ],
       cons: [
-        "30-45 minute onset",
+        "30-60 minute onset",
         "Food/alcohol restrictions",
         "Basic sildenafil only",
-        "Short effectiveness window",
+        "2-6 hour window",
         "Weak for stress-related ED",
+        "Doesn't ignite desire ",
       ],
     },
   ];

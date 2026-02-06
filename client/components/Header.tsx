@@ -11,6 +11,9 @@ export function Header() {
               className="h-full w-auto object-contain"
             />
           </div>
+          <span className="text-xl font-extrabold text-[#1a4a3a] leading-tight uppercase tracking-tight ml-2">
+            American Health Digest
+          </span>
         </div>
       </div>
     </header>

@@ -3,7 +3,7 @@ export function HeroSection() {
     <section className="py-12 md:py-16 bg-gradient-to-b from-gray-50 to-white border-b border-gray-200">
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Main Title */}
-        <h1 className="text-3xl md:text-5xl font-bold text-gray-500 mb-8 tracking-tight">
+        <h1 className="text-3xl md:text-5xl font-bold text-black mb-8 tracking-tight">
           Best ED Treatments of 2026
         </h1>
 
@@ -13,10 +13,6 @@ export function HeroSection() {
             <span className="w-2 h-2 rounded-full bg-teal-500"></span>
             Last Updated - February 5, 2026
           </span>
-          <span>|</span>
-          <a href="#disclosure" className="text-blue-600 hover:underline">
-            Advertising disclosure
-          </a>
         </div>
 
         {/* Author Info */}
@@ -29,14 +25,13 @@ export function HeroSection() {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="text-gray-700">Written by Benjamin Carter</span>
+          <span className="text-gray-700">Written by Ben Carter</span>
           <span className="text-lg">🇺🇸</span>
         </div>
 
         {/* Tested & Approved Badge */}
         <div className="mb-8">
           <p className="text-gray-600 font-semibold mb-2">Tested & Approved</p>
-          <p className="text-sm text-gray-500 mb-2">Consumers' Reviews</p>
           <div className="flex justify-center gap-1">
             {Array(5)
               .fill(null)
@@ -51,21 +46,20 @@ export function HeroSection() {
         {/* Introduction Text */}
         <div className="text-left max-w-3xl mx-auto space-y-4 text-gray-700 leading-relaxed">
           <p>
-            I've spent four months testing because most ED solutions completely miss the mark.
-            Single-ingredient pills work inconsistently, timing windows kill spontaneity, and food
-            restrictions make planning a nightmare.
+            I burned through <strong>$800+ testing ED treatments</strong> so you don't have to. None
+            of these brands say what happens when you take it after a steak dinner, or when you're
+            stressed from work, or when you haven't had sex in two weeks and the pressure is
+            crushing.
           </p>
           <p>
-            After real-world testing with different meals, stress levels, timing scenarios, and
-            relationship contexts, I've found five that actually deliver reliable results. One
-            completely changed how I think about intimate health.
+            So I tested them all in real life: with food, with alcohol, under pressure, when
+            stressed, morning and night. Most failed miserably. Five actually worked.{' '}
+            <strong>And one completely crushed the others out of the water.</strong>
           </p>
         </div>
 
         {/* Section Title */}
-        <div className="mt-12">
-          <p className="text-lg font-semibold text-gray-400">top ed treatments</p>
-        </div>
+        <div className="mt-12"></div>
       </div>
     </section>
   );

@@ -2,21 +2,21 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "I've been using Tagsley for about 4 months now, and it's already saved me twice. Once when I left my wallet at a restaurant (Find My showed exactly which table), and another time when it slipped between my car seats. The battery life is exactly as advertised. I charge it maybe once every few months. Worth every penny for the peace of mind.",
-      author: "Jake Hernandez",
-      location: "New Hampshire",
+        "I've been using MEDVi QUAD for about 5 months now, and it's completely changed my relationship. I was on sildenafil for almost a year before switching, and the difference is night and day. With sildenafil, it worked maybe 60% of the time if I timed everything perfectly. With QUAD, it just works every time. The 15-minute onset means no more awkward waiting or killed moments. Worth every penny for not having to plan your intimate life around a pill schedule.",
+      author: "Jake Martinez",
+      location: "Arizona",
     },
     {
       quote:
-        "i lost my purse at the mall last week and was freaking out because it had everything in it… credit cards, ID, cash, everything. i used the app and found it in like 5 minutes at the food court where i forgot it. my friends think im paranoid for putting a tracker in my wallet but hey, better safe than sorry and who was right, right?",
-      author: "Hannah Stevens",
-      location: "Oregon",
+        "i tried hims for like 8 months and it was so hit or miss… sometimes it worked great, sometimes nothing happened and i'd just wasted $45. switched to medvi quad and its been consistent every single time. the mental part is what i didnt realize i was missing. even when im tired or stressed from work it still works because of the apomorphine thing. my girlfriend noticed the difference immediately lol. should have switched way sooner",
+      author: "Tyler Stevens",
+      location: "Colorado",
     },
     {
       quote:
-        "I'm someone who misplaces things alot and this has already saved me twice – once when my wallet slipped between car seats and another time when I left it at restaurant. No complaints 5/5",
-      author: "Dana Fahrsted",
-      location: "Georgia",
+        "I'm someone who's tried pretty much everything – Viagra, Cialis, Hims, Ro, generic versions. QUAD is the first one that addresses the actual problem instead of just blood flow. The 36-hour window is a relationship saver. My wife and I don't have to schedule anymore, which was honestly killing the spontaneity more than the ED itself. No complaints, 5/5",
+      author: "David Richardson",
+      location: "North Carolina",
     },
   ];
 

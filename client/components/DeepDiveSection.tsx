@@ -222,7 +222,6 @@ export function DeepDiveSection() {
                       ))}
                   </div>
                   <p className="font-semibold text-slate-900">Excellent</p>
-                  <p className="text-xs text-gray-600">8,247 Customer Reviews</p>
                 </div>
 
                 {/* Score Breakdown */}

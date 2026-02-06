@@ -45,6 +45,27 @@ export default function Index() {
     },
     {
       rank: 2,
+      productName: "Rugiet",
+      brand: "Rugiet Health",
+      score: 8.9,
+      ratingText: "Excellent",
+      customerReviews: 4521,
+      pros: [
+        "3-in-1 customized formula",
+        "15-minute sublingual onset",
+        "Up to 36-hour duration",
+        "Personalized dosing options",
+        "No water needed for consumption",
+        "US-licensed physicians",
+      ],
+      cons: [
+        "High cost per dose ($6-$10)",
+        "Subscription model only",
+        "May cause facial flushing",
+      ],
+    },
+    {
+      rank: 3,
       productName: "Hims Hard Mints",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F4bda750cc32d41bd82ea6d18d11c9dc2?format=webp&width=800&height=1200",
       brand: "Hims",
@@ -66,7 +87,7 @@ export default function Index() {
       ],
     },
     {
-      rank: 3,
+      rank: 4,
       productName: "Ro Sparks",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F1b762a4e79944c61beb4bb9e51bc3231?format=webp&width=800&height=1200",
       brand: "Ro",
@@ -88,7 +109,7 @@ export default function Index() {
       ],
     },
     {
-      rank: 4,
+      rank: 5,
       productName: "BlueChew",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fc49b0d29429d4f54a091b7be75f158f7?format=webp&width=800&height=1200",
       brand: "BlueChew",
@@ -107,27 +128,6 @@ export default function Index() {
         "Basic sildenafil only",
         "Short effectiveness window",
         "Weak for stress-related ED",
-      ],
-    },
-    {
-      rank: 5,
-      productName: "Generic Sildenafil",
-      brand: "Various",
-      score: 6.8,
-      ratingText: "Average",
-      customerReviews: 847,
-      pros: [
-        "Lowest upfront cost",
-        "Widely available",
-        "FDA-approved active ingredient",
-      ],
-      cons: [
-        "45-60 minute wait time",
-        "Strict food restrictions",
-        "No mental arousal support",
-        "4-6 hour window only",
-        "Requires doctor visit or telehealth",
-        "Inconsistent under stress",
       ],
     },
   ];

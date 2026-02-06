@@ -71,8 +71,6 @@ export function CTASection() {
                 </button>
               </div>
 
-              <div className="mt-6 flex items-center justify-center md:justify-start gap-2 text-rose-600 font-semibold">
-              </div>
             </div>
 
             {/* Score Card */}

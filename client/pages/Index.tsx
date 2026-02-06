@@ -19,6 +19,7 @@ export default function Index() {
     {
       rank: 1,
       productName: "MEDVi QUAD",
+      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200",
       isTopPick: true,
       score: 9.8,
       ratingText: "Excellent",
@@ -152,6 +153,7 @@ export default function Index() {
                 cons={product.cons}
                 dealText={product.dealText}
                 socialProof={product.socialProof}
+                productImage={product.productImage}
                 isHidden={product.rank > 3 && !expandedProducts}
               />
             ))}

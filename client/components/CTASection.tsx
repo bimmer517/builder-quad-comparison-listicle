@@ -14,8 +14,7 @@ export function CTASection() {
         </h2>
 
         <p className="text-center text-gray-700 mb-12 text-lg">
-          Getting your own MedVi Quad 4 in 1 with the{" "}
-          <span className="font-bold">first-month discount</span> is simple. Just follow these steps:
+          Getting your own <span className="font-bold">MedVi Quad 4 in 1</span> is simple. Just follow these steps:
         </p>
 
         {/* Steps */}

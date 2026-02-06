@@ -31,7 +31,7 @@ export function DeepDiveSection() {
               <div className="w-6 h-6 rounded-full overflow-hidden border border-gray-200 flex-shrink-0 mt-0.5">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F707dc542d6134eb792dc096dfdf95900?format=webp&width=800&height=1200"
-                  alt="Benjamin Carter"
+                  alt="Ben Carter"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -170,7 +170,7 @@ export function DeepDiveSection() {
                 When it comes to reliable intimate health, <span className="text-blue-600 font-bold">MedVi Quad 4 in 1</span> offers incredible value.
               </p>
               <p className="mt-4">
-                At <span className="font-bold">$119 for a month's supply (30 doses)</span>, it's reasonable considering what it protects – your relationship, your confidence, your spontaneity. The current first-month promotion brings it down to <span className="font-bold">$79</span>.
+                At <span className="font-bold">$119 for a month's supply (30 doses)</span>, it's reasonable considering what it protects – your relationship, your confidence, your spontaneity.
               </p>
               <p className="mt-4">
                 I've had friends spend hundreds on urologist visits, trial-and-error with different prescriptions, couples therapy addressing intimacy issues that were actually medical. My buddy Jason spent over $1,200 across six months just trying to find something that worked consistently before discovering combination therapy.

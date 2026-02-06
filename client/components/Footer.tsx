@@ -6,8 +6,12 @@ export function Footer() {
         <div className="bg-gray-50 rounded-lg p-8 mb-12">
           <div className="flex flex-col md:flex-row items-start gap-6">
             {/* Avatar */}
-            <div className="w-20 h-20 rounded-full bg-gray-300 flex-shrink-0 flex items-center justify-center font-bold text-gray-600 text-2xl">
-              BC
+            <div className="w-20 h-20 rounded-full overflow-hidden border border-gray-200 flex-shrink-0">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F707dc542d6134eb792dc096dfdf95900?format=webp&width=800&height=1200"
+                alt="Benjamin Carter"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             {/* Bio Content */}

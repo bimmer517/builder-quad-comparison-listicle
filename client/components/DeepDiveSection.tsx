@@ -36,7 +36,13 @@ export function DeepDiveSection() {
             </p>
 
             <div className="flex items-start gap-3 text-sm">
-              <div className="w-6 h-6 rounded-full bg-gray-300 flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] font-bold">BC</div>
+              <div className="w-6 h-6 rounded-full overflow-hidden border border-gray-200 flex-shrink-0 mt-0.5">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F707dc542d6134eb792dc096dfdf95900?format=webp&width=800&height=1200"
+                  alt="Benjamin Carter"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div>
                 <p className="font-semibold text-gray-900">Written by Benjamin Carter</p>
                 <p className="text-gray-600">on February 5, 2026 | Men's Health</p>

@@ -21,9 +21,13 @@ export function HeroSection() {
 
         {/* Author Info */}
         <div className="flex items-center justify-center gap-3 mb-8">
-          {/* Avatar placeholder - using CSS since we can't load external images */}
-          <div className="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-xs font-bold text-gray-600">
-            BC
+          {/* Avatar Image */}
+          <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-200">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F707dc542d6134eb792dc096dfdf95900?format=webp&width=800&height=1200"
+              alt="Benjamin Carter"
+              className="w-full h-full object-cover"
+            />
           </div>
           <span className="text-gray-700">Written by Benjamin Carter</span>
           <span className="text-lg">🇺🇸</span>

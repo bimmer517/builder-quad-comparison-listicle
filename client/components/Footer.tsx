@@ -79,7 +79,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-gray-600">
-            Copyright © 2025 - HealthCompare.Review All Rights Reserved
+            Copyright © 2025 - AmericanHealthDigest.Review All Rights Reserved
           </p>
 
           {/* Back to Top Button */}

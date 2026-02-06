@@ -37,6 +37,17 @@ export function CTASection() {
         {/* Main CTA Card */}
         <div className="border-4 border-slate-900 rounded-2xl p-8 md:p-12 bg-white">
           <div className="flex flex-col md:flex-row items-center gap-8">
+            {/* Image Column */}
+            <div className="w-full md:w-1/3 flex-shrink-0">
+              <div className="rounded-xl overflow-hidden shadow-lg border border-gray-100">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200"
+                  alt="MEDVi QUAD"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
             {/* Left Content */}
             <div className="flex-1 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start gap-3 mb-4">

@@ -1,21 +1,21 @@
 export function CTASection() {
   const steps = [
-    { number: 1, title: "Go to the official Tagsley website" },
-    { number: 2, title: "Choose the number of Tagsley cards you want" },
-    { number: 3, title: "Enter your shipping and payment details" },
-    { number: 4, title: "Confirm your order and enjoy knowing your belongings are safe and trackable!" },
+    { number: 1, title: "Go to the official MEDVi website" },
+    { number: 2, title: "Complete the 5-minute medical consultation with a licensed US physician" },
+    { number: 3, title: "Get your prescription approved (typically within 24 hours)" },
+    { number: 4, title: "Receive discreet delivery in 3-5 days and experience reliable intimate health!" },
   ];
 
   return (
-    <section className="py-12 md:py-16 bg-white">
+    <section className="py-12 md:py-16 bg-white border-t border-gray-100">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center">
-          Where Can I Buy the Tagsley Tracking Card?
+          Where Can I Get MEDVi QUAD?
         </h2>
 
         <p className="text-center text-gray-700 mb-12 text-lg">
-          Getting your own Tagsley with a{" "}
-          <span className="font-bold">70% discount</span> is simple. Just follow these steps:
+          Getting your own MEDVi QUAD with the{" "}
+          <span className="font-bold">first-month discount</span> is simple. Just follow these steps:
         </p>
 
         {/* Steps */}
@@ -42,32 +42,32 @@ export function CTASection() {
               <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
                 <span className="text-5xl font-bold text-slate-900">#1</span>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900">Tracking Card of 2025</h3>
-                  <p className="text-gray-600">Tagsley</p>
+                  <h3 className="text-2xl font-bold text-slate-900">ED Treatment of 2025</h3>
+                  <p className="text-gray-600">MEDVi QUAD</p>
                 </div>
               </div>
 
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Tagsley delivers pinpoint tracking accuracy, fast charging, 5-month battery life, and credit card thickness in one sleek design. Its Apple "Find My" integration provides worldwide tracking coverage while wireless charging keeps you powered up. Perfect for anyone who wants to never lose their personal belongings again.
+                MEDVi QUAD delivers comprehensive dual-pathway coverage, 15-minute onset, 36-hour effectiveness, and CNS arousal activation in one sublingual dose. Its 4-ingredient formula (sildenafil + tadalafil + apomorphine + oxytocin) provides complete coverage while sublingual delivery ensures fast absorption regardless of food or alcohol. Perfect for anyone who wants reliable intimate health without planning restrictions.
               </p>
 
               <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
                 <div>
                   <p className="text-sm text-rose-600 font-semibold">Limited Time Deal:</p>
-                  <p className="text-3xl font-bold text-slate-900">70% Off</p>
+                  <p className="text-3xl font-bold text-slate-900">First Month $79</p>
                 </div>
 
                 <button
                   onClick={() => window.open("https://example.com", "_blank")}
                   className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all text-lg"
                 >
-                  Click Here to Get 70% Off
+                  Click Here to Start Your Consultation
                 </button>
               </div>
 
               <div className="mt-6 flex items-center justify-center md:justify-start gap-2 text-rose-600 font-semibold">
                 <span>💓</span>
-                <span>2,184 people bought this week</span>
+                <span>1,856 people started consultations this week</span>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export function CTASection() {
                   ))}
               </div>
               <p className="font-semibold text-slate-900 mb-1">Excellent</p>
-              <p className="text-sm text-gray-600 mb-6">9,137 Customer Reviews</p>
+              <p className="text-sm text-gray-600 mb-6">8,247 Customer Reviews</p>
 
               <div className="space-y-3 border-t border-gray-300 pt-6">
                 <div className="flex justify-between">
@@ -92,11 +92,11 @@ export function CTASection() {
                   <span className="font-bold text-slate-900">10</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-700 font-semibold">Easy to Use</span>
+                  <span className="text-gray-700 font-semibold">Effectiveness</span>
                   <span className="font-bold text-slate-900">10</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-700 font-semibold">Price</span>
+                  <span className="text-gray-700 font-semibold">Value</span>
                   <span className="font-bold text-slate-900">9</span>
                 </div>
                 <div className="flex justify-between">

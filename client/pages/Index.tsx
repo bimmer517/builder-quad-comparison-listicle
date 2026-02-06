@@ -18,7 +18,7 @@ export default function Index() {
   const products = [
     {
       rank: 1,
-      productName: "MEDVi QUAD",
+      productName: "MedVi Quad 4 in 1",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200",
       isTopPick: true,
       score: 9.8,
@@ -40,7 +40,7 @@ export default function Index() {
     },
     {
       rank: 2,
-      productName: "Rugiet",
+      productName: "Rugiet 3 in 1",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fb4c67d36804a4c9e9829f9512dffa0fc?format=webp&width=800&height=1200",
       brand: "Rugiet Health",
       score: 8.9,
@@ -61,7 +61,7 @@ export default function Index() {
     },
     {
       rank: 3,
-      productName: "Hims Hard Mints",
+      productName: "Hims 2 in 1 Mints",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F4bda750cc32d41bd82ea6d18d11c9dc2?format=webp&width=800&height=1200",
       brand: "Hims",
       score: 8.4,
@@ -86,7 +86,7 @@ export default function Index() {
     },
     {
       rank: 4,
-      productName: "Ro Sparks",
+      productName: "Ro Sparks 2 in 1",
       productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F1b762a4e79944c61beb4bb9e51bc3231?format=webp&width=800&height=1200",
       brand: "Ro",
       score: 8.1,

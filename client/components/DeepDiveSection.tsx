@@ -9,16 +9,12 @@ export function DeepDiveSection() {
   ];
 
   const pros = [
-    "4-in-1 comprehensive formula",
-    "15-minute onset time",
-    "36-hour effectiveness window",
-    "CNS + vascular dual-pathway",
-    "Sublingual fast absorption",
-    "No food/alcohol interference",
-    "Zero subscription fees",
-    "US-licensed physician care",
-    "Discreet home delivery",
-    "90-day money-back guarantee",
+    "Ignites sexual desire (Apomorphine)",
+    ">10 minute onset (Vardenafil)",
+    "Rock-solid, bigger erections (Sildenafil)",
+    "36-hour window (Tadalafil)",
+    "Works after dinner & drinks",
+    "Money back guarantee",
   ];
 
   const cons = [
@@ -50,8 +46,8 @@ export function DeepDiveSection() {
 
             {/* Product Image */}
             <div className="w-full rounded-lg overflow-hidden shadow-sm aspect-video">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200"
+              <img 
+                src="https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200" 
                 alt="Testing MEDVi QUAD sublingual treatment"
                 className="w-full h-full object-cover"
               />

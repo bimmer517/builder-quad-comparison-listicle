@@ -90,6 +90,7 @@ export default function Index() {
     {
       rank: 4,
       productName: "BlueChew",
+      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fc49b0d29429d4f54a091b7be75f158f7?format=webp&width=800&height=1200",
       brand: "BlueChew",
       score: 7.3,
       ratingText: "Average",

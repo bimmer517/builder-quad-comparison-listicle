@@ -2,19 +2,19 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "I've been using MEDVi QUAD for about 5 months now, and it's completely changed my relationship. I was on sildenafil for almost a year before switching, and the difference is night and day. With sildenafil, it worked maybe 60% of the time if I timed everything perfectly. With QUAD, it just works every time. The 15-minute onset means no more awkward waiting or killed moments. Worth every penny for not having to plan your intimate life around a pill schedule.",
+        "I've been using MedVi Quad 4 in 1 for about 5 months now, and it's completely changed my relationship. I was on sildenafil for almost a year before switching, and the difference is night and day. With sildenafil, it worked maybe 60% of the time if I timed everything perfectly. With MedVi Quad 4 in 1, it just works every time. The 15-minute onset means no more awkward waiting or killed moments. Worth every penny for not having to plan your intimate life around a pill schedule.",
       author: "Jake Martinez",
       location: "Arizona",
     },
     {
       quote:
-        "i tried hims for like 8 months and it was so hit or miss… sometimes it worked great, sometimes nothing happened and i'd just wasted $45. switched to medvi quad and its been consistent every single time. the mental part is what i didnt realize i was missing. even when im tired or stressed from work it still works because of the apomorphine thing. my girlfriend noticed the difference immediately lol. should have switched way sooner",
+        "i tried Hims 2 in 1 Mints for like 8 months and it was so hit or miss… sometimes it worked great, sometimes nothing happened and i'd just wasted $45. switched to MedVi Quad 4 in 1 and its been consistent every single time. the mental part is what i didnt realize i was missing. even when im tired or stressed from work it still works because of the apomorphine thing. my girlfriend noticed the difference immediately lol. should have switched way sooner",
       author: "Tyler Stevens",
       location: "Colorado",
     },
     {
       quote:
-        "I'm someone who's tried pretty much everything – Viagra, Cialis, Hims, Ro, generic versions. QUAD is the first one that addresses the actual problem instead of just blood flow. The 36-hour window is a relationship saver. My wife and I don't have to schedule anymore, which was honestly killing the spontaneity more than the ED itself. No complaints, 5/5",
+        "I'm someone who's tried pretty much everything – Viagra, Cialis, Hims 2 in 1 Mints, Ro Sparks 2 in 1, generic versions. MedVi Quad 4 in 1 is the first one that addresses the actual problem instead of just blood flow. The 36-hour window is a relationship saver. My wife and I don't have to schedule anymore, which was honestly killing the spontaneity more than the ED itself. No complaints, 5/5",
       author: "David Richardson",
       location: "North Carolina",
     },

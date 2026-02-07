@@ -29,7 +29,7 @@ export default function Index() {
         ">10 minute onset (Vardenafil)",
         "Rock-solid, bigger erections (Sildenafil)",
         "36-hour window (Tadalafil)",
-        "Works after dinner & drinks",
+        "Works after dinner & drinks (Sublingual delivery)",
         "Money back guarantee",
       ],
       cons: [

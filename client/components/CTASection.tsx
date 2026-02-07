@@ -3,7 +3,7 @@ export function CTASection() {
     { number: 1, title: "Go to the official MEDVi website" },
     { number: 2, title: "Complete a quick free quiz to see if you qualify" },
     { number: 3, title: "Get your prescription approved" },
-    { number: 4, title: "Receive discreet delivery in 3-5 days and experience reliable intimate health!" },
+    { number: 4, title: "Receive discreet delivery in 3-5 days" },
   ];
 
   return (

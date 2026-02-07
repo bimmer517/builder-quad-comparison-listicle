@@ -67,7 +67,7 @@ export function CTASection() {
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all text-lg text-center"
                 >
-                  Click Here to Start Your Consultation
+                  Take Me to MedVi
                 </a>
               </div>
 

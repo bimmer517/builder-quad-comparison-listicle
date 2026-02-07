@@ -106,7 +106,9 @@ export function DeepDiveSection() {
                         />
                       ))}
                   </div>
-                  <p className="font-semibold text-slate-900">Excellent</p>
+                  <p className="font-semibold text-slate-900">
+                    <strong><u>MedVi Quad 4 in 1</u></strong>
+                  </p>
                 </div>
 
                 {/* Score Breakdown */}

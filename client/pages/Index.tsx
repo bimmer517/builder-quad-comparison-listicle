@@ -34,6 +34,7 @@ export default function Index() {
       ],
       cons: [
         "Requires online consultation",
+        "Harder to qualify",
       ],
     },
     {

@@ -1,7 +1,7 @@
 export function CTASection() {
   const steps = [
     { number: 1, title: "Go to the official MEDVi website" },
-    { number: 2, title: "Complete the 5-minute medical consultation with a licensed US physician" },
+    { number: 2, title: "Complete a quick free quiz to see if you qualify" },
     { number: 3, title: "Get your prescription approved" },
     { number: 4, title: "Receive discreet delivery in 3-5 days and experience reliable intimate health!" },
   ];

@@ -24,7 +24,7 @@ export function TestimonialsSection() {
     <section className="py-12 md:py-16 bg-white">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
-          Customer Reviews
+          What others say
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

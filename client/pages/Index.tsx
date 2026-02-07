@@ -19,7 +19,8 @@ export default function Index() {
     {
       rank: 1,
       productName: "MedVi Quad 4 in 1",
-      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200",
+      productImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F8da990828c6c4a36bc261f37d98da865?format=webp&width=800&height=1200",
       isTopPick: true,
       score: 9.8,
       ratingText: "Excellent",
@@ -32,15 +33,13 @@ export default function Index() {
         "Works after dinner & drinks (Sublingual delivery)",
         "Money back guarantee",
       ],
-      cons: [
-        "Requires online consultation",
-        "Harder to qualify",
-      ],
+      cons: ["Requires online consultation", "Harder to qualify"],
     },
     {
       rank: 2,
       productName: "Rugiet 3 in 1",
-      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fb4c67d36804a4c9e9829f9512dffa0fc?format=webp&width=800&height=1200",
+      productImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fb4c67d36804a4c9e9829f9512dffa0fc?format=webp&width=800&height=1200",
       brand: "Rugiet Health",
       score: 8.9,
       ratingText: "Excellent",
@@ -61,7 +60,8 @@ export default function Index() {
     {
       rank: 3,
       productName: "Hims 2 in 1 Mints",
-      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F4bda750cc32d41bd82ea6d18d11c9dc2?format=webp&width=800&height=1200",
+      productImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F4bda750cc32d41bd82ea6d18d11c9dc2?format=webp&width=800&height=1200",
       brand: "Hims",
       score: 8.4,
       ratingText: "Good",
@@ -86,7 +86,8 @@ export default function Index() {
     {
       rank: 4,
       productName: "Ro Sparks 2 in 1",
-      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F1b762a4e79944c61beb4bb9e51bc3231?format=webp&width=800&height=1200",
+      productImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2F1b762a4e79944c61beb4bb9e51bc3231?format=webp&width=800&height=1200",
       brand: "Ro",
       score: 8.1,
       ratingText: "Good",
@@ -106,15 +107,13 @@ export default function Index() {
     {
       rank: 5,
       productName: "BlueChew",
-      productImage: "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fc49b0d29429d4f54a091b7be75f158f7?format=webp&width=800&height=1200",
+      productImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F0f8a16342526448a9a4d9dc291752d34%2Fc49b0d29429d4f54a091b7be75f158f7?format=webp&width=800&height=1200",
       brand: "BlueChew",
       score: 7.3,
       ratingText: "Average",
       customerReviews: 1129,
-      pros: [
-        "Stronger erections (Sildenafil)",
-        "Cheaper doses",
-      ],
+      pros: ["Stronger erections (Sildenafil)", "Cheaper doses"],
       cons: [
         "30-60 minute onset",
         "Food/alcohol restrictions",
@@ -163,7 +162,9 @@ export default function Index() {
                   className="flex items-center gap-2 px-6 py-3 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors"
                 >
                   <span className="text-sm font-semibold text-gray-700">
-                    {expandedProducts ? "See Less Of The List" : "See The Rest Of The List"}
+                    {expandedProducts
+                      ? "See Less Of The List"
+                      : "See The Rest Of The List"}
                   </span>
                   <ChevronUp
                     size={20}

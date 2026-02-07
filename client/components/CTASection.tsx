@@ -14,7 +14,8 @@ export function CTASection() {
         </h2>
 
         <p className="text-center text-gray-700 mb-12 text-lg">
-          Getting your own <span className="font-bold">MedVi Quad 4 in 1</span> is simple. Just follow these steps:
+          Getting your own <span className="font-bold">MedVi Quad 4 in 1</span>{" "}
+          is simple. Just follow these steps:
         </p>
 
         {/* Steps */}
@@ -51,7 +52,9 @@ export function CTASection() {
             <div className="flex-1 text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900">#1 ED Treatment of 2026</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">
+                    #1 ED Treatment of 2026
+                  </h3>
                   <p className="text-gray-600">MedVi Quad 4 in 1</p>
                 </div>
               </div>
@@ -70,7 +73,6 @@ export function CTASection() {
                   Take Me to MedVi
                 </a>
               </div>
-
             </div>
 
             {/* Score Card */}
@@ -93,7 +95,9 @@ export function CTASection() {
                   <span className="font-bold text-slate-900">9.5</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-700 font-semibold">Effectiveness</span>
+                  <span className="text-gray-700 font-semibold">
+                    Effectiveness
+                  </span>
                   <span className="font-bold text-slate-900">10</span>
                 </div>
                 <div className="flex justify-between">
